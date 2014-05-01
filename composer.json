@@ -1,0 +1,20 @@
+{
+    "name": "ps24love/widget",
+    "description": "laravel4 widget system",
+    "authors": [
+        {
+            "name": "ps24love",
+            "email": "ps24love2@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Ps24love\\Widget": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
