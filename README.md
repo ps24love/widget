@@ -17,10 +17,14 @@ Next, open a terminal and run.
   composer update 
 ```
 
-After the composer updated. Add new service provider in app/config/app.php.
+After the composer updated. Add new service provider and alias in app/config/app.php.
 
 ```
   'Ps24love\Widget\WidgetServiceProvider'
+```
+
+```
+  'Widget' => 'Ps24love\Widget\Facades\Widget'
 ```
 
 Done.
