@@ -99,7 +99,7 @@ Globally calling the widget just like below:
 
 Widget::awesome();
 
-Widget::hello('Jhon');
+Widget::hello('John');
 
 Widget::box('Latest News', 'This is a description of latest news');
 
